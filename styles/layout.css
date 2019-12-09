@@ -1,0 +1,30 @@
+/* positions, structure, width, height*/
+
+
+/*WHY IS HEIGHT NOT BEING INHERITED?*/
+
+.quadBox {
+    display: inline-block;
+    margin: 0 25% -3px 25%;
+}
+
+@media only screen and (min-width:768px) {
+
+    /* .firstRow {
+        display: flex;
+        flex-direction: column;
+    }
+    .secondRow {
+        display: flex;
+        flex-direction: row;
+    } */
+
+    /* .ceeDeeBox {
+
+    } */
+    /*WHY IS HEIGHT NOT BEING INHERITED?*/
+    .quadBox {
+        display: inline-block;
+        margin: -3px 0 -3px 0;
+    }
+}
