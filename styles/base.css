@@ -7,12 +7,54 @@
 
 body {
     width: 100%;
-    display: flex;
-    flex-flow: row wrap;
-    text-align: center;
 }
 
 p {
     position: relative;
     top: 50%;
+}
+
+@media only screen and (min-width:0px) and (max-width:600px) {
+    .desktop {
+        display: none;
+        margin: 30px;
+    }
+    .mobile {
+        display: block;
+        margin: 30px;
+    }
+    .tablet {
+        display: none;
+        margin: 30px;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width:800px) {
+    .desktop {
+        display: none;
+        margin: 30px;
+    }
+    .mobile {
+        display: none;
+        margin: 30px;
+    }
+    .tablet {
+        display: block;
+        margin: 30px;
+    }
+}
+
+@media only screen and (min-width:800px) {
+    .desktop {
+        display: block;
+        margin: 30px;
+    }
+    .mobile {
+        display: none;
+        margin: 30px;
+    }
+    .tablet {
+        display: none;
+        margin: 30px;
+    }
 }
